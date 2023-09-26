@@ -1,0 +1,111 @@
+
+
+* {
+  font-family: "poppins", sans-serif;
+  font-size: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+
+.leftbar {
+  margin: 0 !important ;
+  padding: 0 !important;
+  background-color: #3c3c3a;
+}
+
+.cover {
+  flex-wrap: wrap;
+}
+.image {
+  background-color: #211e17;
+}
+
+.image img {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  border-radius: 50%;
+}
+
+.name .content {
+  background-color: #3b2d13;
+  color: white;
+}
+
+.kontak a {
+  color: white;
+  text-decoration: none;
+  object-fit: contain;
+}
+
+.about-me,
+.bahasa,
+.kontak {
+  color: white;
+}
+
+.content h2 span {
+  color: #ffc20f;
+}
+
+.right-bar h2,
+.right-bar h5 {
+  font-weight: bold;
+  color: #272725;
+  text-transform: capitalize;
+}
+
+.leftbar hr {
+  color: white;
+}
+
+/* media Queris */
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100% !important;
+  }
+}
+
+@media (min-width: 912px) {
+  html {
+    font-size: 62.5%;
+  }
+  .cover {
+    flex-wrap: wrap;
+  }
+}
+/* tablet*/
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .cover {
+    flex-wrap: wrap;
+  }
+}
+
+/* moblie phone*/
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .pendidikan,
+  .pengalaman,
+  .kemampuan {
+    padding: 1rem;
+  }
+  .isi {
+    margin-left: 0.8rem;
+    padding-right: 2em;
+  }
+  .list {
+    display: none;
+  }
+}
